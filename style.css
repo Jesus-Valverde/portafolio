@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo__link{
+    color: #FFFFFF;
+    display: flex;
+}
+
+.logo__container{
+    color:  #FFFFFF;
+}
+
+.logo__txt, .nav__list a{
+    font-family: 'Montserrat', sans-serif;
+    align-self: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.logo__img{
+    height: 45px;
+    width: 45px;
+}
+
+.nav{
+    display: flex;
+    align-content: center;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+}
+
+.nav__list li{
+    list-style: none;
+    margin-right: 25px;
+}
+
+body {
+    background-color: #000000;
+}
+
+.link__proyectos, .link__sobremi, .link__contacto, .me__pretitle, .me__description, .me__title, .me__job, .me__btn{
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+}
+
+.link__inicio{
+    color: #EEFB03;
+    border-bottom:2px solid #EEFB03;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.me__container{
+    width: 50%;
+    margin-left: 40px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.me__title{
+    color: #FF3131;
+    font-weight: 800;
+    font-size: 50.9px;
+}
+
+.me__job{
+    font-weight: 800;
+    font-size: 37.7px;
+    margin-top: -15px;
+}
+
+.me__pretitle{
+    font-weight: 200;
+    font-size: 34px;
+}
+
+.me__description{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.me__btncontainer{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.me__btn{
+    background-color: #EEFB03;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 45px 15px 45px;
+    border: transparent;
+    border-radius: 40px;
+    align-self: center;
+    letter-spacing: 2px;
+}
+
+.img__container{
+    margin-right: 40px;
+    display: flex;
+    justify-content: end;
+}
+
+.img__image{
+    width: 88%;
+}

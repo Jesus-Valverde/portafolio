@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.header{
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav a{
+    margin-right: 25px;
+}
+
+.logo__link, .logo__container, .nav, .nav__list{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.logo__txt, .nav{
+    align-self: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.logo__img{
+    width: 45px;
+}
+
+body {
+    background-color: #000000;
+}
+
+#target{
+    color: #EEFB03;
+    border-bottom:2px solid #EEFB03;
+}
+

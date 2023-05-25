@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo__link{
+    color: #FFFFFF;
+    display: flex;
+}
+
+.logo__container{
+    color:  #FFFFFF;
+}
+
+.logo__txt, .nav__list a{
+    font-family: 'Montserrat', sans-serif;
+    align-self: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.logo__img{
+    height: 45px;
+    width: 45px;
+}
+
+.nav{
+    display: flex;
+    align-content: center;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+}
+
+.nav__list li{
+    list-style: none;
+    margin-right: 25px;
+}
+
+body {
+    background-color: #000000;
+}
+
+.link__inicio, .link__sobremi, .link__contacto, .pretitle, .me__description, .title, .me__job, .project__btn, .description__txt{
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+}
+
+.link__proyectos{
+    color: #EEFB03;
+    border-bottom:2px solid #EEFB03;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project__container{
+    background-color: #ffffff07;
+    margin: 0px 25px 25px 25px;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background-image: url(/images/cubes024.png);
+}
+
+.project__view{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.project__title{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.project__title p{
+    display: flex;
+}
+
+
+
+.project__img{
+    display: block;
+    max-width: 90%;
+    margin: auto;
+}
+
+.title{
+    margin-left: 15px;
+    color: #FF3131;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.pretitle{
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.project__btn{
+    background-color: #EEFB03;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 45px 15px 45px;
+    border: transparent;
+    border-radius: 40px;
+    align-self: center;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.project__description{
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+}
+
+.description{
+    display: flex;
+}
+
+.description__txt{
+    font-weight: 600;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.codelang{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.HTMLico, .CSSico{
+    max-width: 25%;
+}
